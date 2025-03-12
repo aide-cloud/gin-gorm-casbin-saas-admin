@@ -52,5 +52,5 @@ func InitCasbinModel(db *gorm.DB) (*casbin.SyncedEnforcer, error) {
 		}
 	})
 
-	return enforcer, nil
+	return enforcer, err
 }
